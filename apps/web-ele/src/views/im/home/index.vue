@@ -319,7 +319,7 @@ watch(
   --im-resize-line-color: #d8dde5;
 
   /*
-   * IM 聊天端复用 web-antd 的 --ant-color-* 变量名。此处用 Vben design token 兜底定义，
+   * IM 聊天端复用 Ant Design 的 --ant-color-* 变量名。此处用 Vben design token 兜底定义，
    * 保持 antd / ele 两端样式结构一致，并随主题（亮/暗）自动切换。
    * 缺失时这些变量为空 → 背景透明、边框/填充失效（典型：表情面板透出输入框占位文字）。
    */

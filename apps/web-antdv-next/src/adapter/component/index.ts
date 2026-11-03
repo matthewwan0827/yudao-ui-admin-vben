@@ -760,7 +760,7 @@ async function initComponentAdapter() {
     Space,
     Switch,
     TextArea: withDefaultPlaceholder(Textarea, 'input'),
-    // Textarea 为 TextArea 的别名，与 web-antd / web-ele 的组件注册名保持一致
+    // Textarea 为 TextArea 的别名，兼容其他应用中的组件注册名。
     Textarea: withDefaultPlaceholder(Textarea, 'input'),
     RichTextarea,
     TimePicker,

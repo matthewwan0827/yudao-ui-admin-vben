@@ -16,7 +16,7 @@ After the project development is completed, execute the following command to bui
 pnpm build
 ```
 
-After the build is successful, a `dist` folder for the corresponding application will be generated in the root directory, which contains the built and packaged files, for example: `apps/web-antd/dist/`
+After the build succeeds, a `dist` folder is generated in the application directory, for example: `apps/web-antdv-next/dist/`.
 
 ## Preview
 
@@ -43,7 +43,7 @@ npm i -g live-server
 Then execute the `live-server` command in the `dist` directory to view the effect locally.
 
 ```bash
-cd apps/web-antd/dist
+cd apps/web-antdv-next/dist
 # Local preview, default port 8080
 live-server
 # Specify port

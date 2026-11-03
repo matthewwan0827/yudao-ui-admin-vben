@@ -16,7 +16,7 @@
 pnpm build
 ```
 
-构建打包成功之后，会在根目录生成对应的应用下的 `dist` 文件夹，里面就是构建打包好的文件，例如: `apps/web-antd/dist/`
+构建打包成功之后，会在应用目录下生成 `dist` 文件夹，例如：`apps/web-antdv-next/dist/`。
 
 ## 预览
 
@@ -43,7 +43,7 @@ npm i -g live-server
 然后在 `dist` 目录下执行 `live-server` 命令，即可在本地查看效果。
 
 ```bash
-cd apps/web-antd/dist
+cd apps/web-antdv-next/dist
 # 本地预览，默认端口8080
 live-server
 # 指定端口

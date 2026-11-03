@@ -205,7 +205,7 @@ defineExpose({ settingValues });
   </div>
 
   <!-- 图片尺寸 -->
-  <!-- TODO @AI：同 /Users/yunai/Java/yudao-ui-admin-vben-v5/apps/web-antd/src/views/ai/image/index/modules/common/index.vue 的问题 -->
+  <!-- TODO @AI：与 AI 图片生成模块的其他实现保持一致。 -->
   <div class="mt-8">
     <div><b>图片尺寸</b></div>
     <Space wrap class="mt-4 w-full">

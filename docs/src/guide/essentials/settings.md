@@ -34,7 +34,7 @@
 VITE_APP_TITLE=Vben Admin
 
 # 应用命名空间，用于缓存、store等功能的前缀，确保隔离
-VITE_APP_NAMESPACE=vben-web-antd
+VITE_APP_NAMESPACE=vben-web-antdv-next
 ```
 
 ```bash [.env.development]

@@ -34,7 +34,7 @@ VITE_GLOB_API_URL=/api
 In the development environment, if you need to handle CORS, configure the API endpoint in the `vite.config.mts` file under the corresponding application directory:
 
 ```ts{8-16}
-// apps/web-antd/vite.config.mts
+// apps/web-antdv-next/vite.config.mts
 import { defineConfig } from '@vben/vite-config';
 
 export default defineConfig(async () => {
@@ -110,7 +110,7 @@ In the production environment, if CORS issues arise, you can use `nginx` to prox
 
 ## API Request Configuration
 
-The project comes with a default basic request configuration based on `axios`, provided by the `@vben/request` package. The project does not overly complicate things but simply wraps some common configurations. If there are other requirements, you can add or adjust the configurations as needed. Depending on the app, different component libraries and `store` might be used, so under the `src/api/request.ts` folder in the application directory, there are corresponding request configuration files. For example, in the `web-antd` project, there's a `src/api/request.ts` file where you can configure according to your needs.
+The project includes a basic request setup based on `axios`, provided by `@vben/request`. Each app can configure its own request behavior in `src/api/request.ts`, depending on its component library and store needs.
 
 ### Request Examples
 

@@ -34,7 +34,7 @@ The rules are consistent with [Vite Env Variables and Modes](https://vitejs.dev/
 VITE_APP_TITLE=Vben Admin
 
 # Application namespace, used as a prefix for caching, store, etc., to ensure isolation
-VITE_APP_NAMESPACE=vben-web-antd
+VITE_APP_NAMESPACE=vben-web-antdv-next
 ```
 
 ```bash [.env.development]

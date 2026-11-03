@@ -55,7 +55,7 @@ async function getVersionTag() {
 pnpm add version-polling
 ```
 
-以`apps/web-antd`项目为例，在项目入口文件`main.ts`或者`app.vue`添加以下代码
+以 `apps/web-antdv-next` 项目为例，在项目入口文件 `main.ts` 或 `app.vue` 添加以下代码。
 
 ```ts
 import { h } from 'vue';

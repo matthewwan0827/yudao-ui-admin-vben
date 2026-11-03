@@ -1,6 +1,6 @@
 <!-- add by 星语：参考 vben2 的方式，增加 TableAction 组件 -->
 <script setup lang="ts">
-// TODO @xingyu：要不要和 apps/web-antd/src/components/table-action/table-action.vue 代码风格，进一步风格对齐？现在每个方法，会有一些差异
+// TODO @xingyu：要不要和其他应用的 table-action 组件进一步统一代码风格？现在每个方法会有一些差异。
 import type { PropType } from 'vue';
 
 import type { ActionItem, PopConfirm } from './typing';
