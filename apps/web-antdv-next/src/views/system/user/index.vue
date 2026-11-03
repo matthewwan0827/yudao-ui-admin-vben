@@ -5,7 +5,7 @@ import type { SystemUserApi } from '#/api/system/user';
 
 import { ref } from 'vue';
 
-import { confirm, DocAlert, Page, useVbenModal } from '@vben/common-ui';
+import { confirm, Page, useVbenModal } from '@vben/common-ui';
 import { DICT_TYPE } from '@vben/constants';
 import { getDictLabel } from '@vben/hooks';
 import { downloadFileFromBlobPart, isEmpty } from '@vben/utils';
@@ -190,15 +190,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="用户体系" url="https://doc.iocoder.cn/user-center/" />
-      <DocAlert title="三方登陆" url="https://doc.iocoder.cn/social-user/" />
-      <DocAlert
-        title="Excel 导入导出"
-        url="https://doc.iocoder.cn/excel-import-and-export/"
-      />
-    </template>
-
     <FormModal @success="handleRefresh" />
     <ResetPasswordModal @success="handleRefresh" />
     <AssignRoleModal @success="handleRefresh" />
