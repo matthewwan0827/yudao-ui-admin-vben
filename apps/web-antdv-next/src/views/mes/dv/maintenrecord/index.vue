@@ -96,12 +96,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 </script>
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【设备】点检记录、保养记录、维修单"
-        url="https://doc.iocoder.cn/mes/dv/check-record/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <Grid table-title="保养记录列表">
       <template #toolbar-tools>

@@ -17,7 +17,7 @@ import {
   exportLedgerAuxiliaryBalance,
   getLedgerAuxiliaryBalanceList,
 } from '#/api/fms/ledger';
-import FmsAuxiliaryItemSelect from '#/views/fms/config/auxiliary/components/auxiliary-select-modal.vue';
+import FmsAuxiliaryItemSelect from '#/views/fms/config/auxiliary/components/auxiliary-item-select.vue';
 import FmsAuxiliaryTypeSelect from '#/views/fms/config/auxiliary/components/auxiliary-type-select.vue';
 import FmsSubjectSelect from '#/views/fms/config/subject/components/subject-select.vue';
 import FmsLedgerMonthRangePicker from '#/views/fms/ledger/components/ledger-month-range-picker.vue';
@@ -161,12 +161,6 @@ onMounted(() => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【账簿】账簿管理"
-        url="https://doc.iocoder.cn/fms/ledger/"
-      />
-    </template>
     <div class="flex h-full flex-col">
       <!-- 搜索工作栏 -->
       <Card class="mb-4 shrink-0">

@@ -105,12 +105,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【设备】设备类型、设备台账"
-        url="https://doc.iocoder.cn/mes/dv/device/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <Grid table-title="设备类型列表">
       <template #toolbar-tools>

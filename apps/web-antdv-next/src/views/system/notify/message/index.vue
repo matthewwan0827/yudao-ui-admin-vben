@@ -59,9 +59,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="站内信" url="https://doc.iocoder.cn/notify/" />
-    </template>
 
     <DetailModal @success="handleRefresh" />
     <Grid table-title="站内信列表">

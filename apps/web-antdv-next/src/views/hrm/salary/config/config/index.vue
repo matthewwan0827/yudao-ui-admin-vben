@@ -94,12 +94,6 @@ onMounted(loadConfig);
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【薪资】计薪设置、薪资档案"
-        url="https://doc.iocoder.cn/hrm/salary/config/"
-      />
-    </template>
     <Alert
       v-if="initialized"
       class="mb-4"

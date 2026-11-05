@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { onMounted, ref } from 'vue';
 
-import { DocAlert, Page } from '@vben/common-ui';
+import { Page } from '@vben/common-ui';
 import { formatDateTime } from '@vben/utils';
 
 import { Button, Card } from 'antdv-next';
@@ -43,12 +43,6 @@ onMounted(() => {
 
 <template>
   <Page>
-    <template #doc>
-      <DocAlert
-        title="WMS 手册（功能开启）"
-        url="https://doc.iocoder.cn/wms/build/"
-      />
-    </template>
     <div class="flex flex-col gap-2">
       <Card :styles="{ body: { padding: '16px' } }">
         <div class="flex flex-wrap items-center justify-between gap-4">

@@ -207,12 +207,6 @@ onMounted(async () => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【商品】商品 SPU 与 SKU"
-        url="https://doc.iocoder.cn/mall/product-spu-sku/"
-      />
-    </template>
 
     <Grid>
       <template #toolbar-actions>

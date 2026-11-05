@@ -102,12 +102,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【生产】安灯配置、安灯呼叫"
-        url="https://doc.iocoder.cn/mes/pro/andon/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <ConfigList ref="configModalRef" />
     <Grid table-title="安灯呼叫记录">

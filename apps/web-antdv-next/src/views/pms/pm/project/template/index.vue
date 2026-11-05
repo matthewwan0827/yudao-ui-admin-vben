@@ -73,12 +73,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【PMS】项目模板"
-        url="https://doc.iocoder.cn/pms/pm/project/"
-      />
-    </template>
 
     <!-- 模板列表 -->
     <Grid>

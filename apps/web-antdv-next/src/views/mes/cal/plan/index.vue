@@ -93,12 +93,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【排班】排班计划、排班日历"
-        url="https://doc.iocoder.cn/mes/cal/calendar/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <Grid table-title="排班计划列表">
       <template #toolbar-tools>

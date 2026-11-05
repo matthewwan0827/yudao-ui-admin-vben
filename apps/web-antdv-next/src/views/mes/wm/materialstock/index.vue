@@ -121,12 +121,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【仓库】批次管理、库存现有量、库存事务"
-        url="https://doc.iocoder.cn/mes/wm/stock/"
-      />
-    </template>
 
     <AreaModal />
     <WmBatchDetail ref="batchDetailRef" />

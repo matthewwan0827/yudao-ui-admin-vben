@@ -118,12 +118,6 @@ onActivated(() => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="审批接入（流程表单）"
-        url="https://doc.iocoder.cn/bpm/use-bpm-form/"
-      />
-    </template>
 
     <DetailModal />
     <Grid table-title="流程表单">

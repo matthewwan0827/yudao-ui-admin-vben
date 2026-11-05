@@ -97,12 +97,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【生产】工序设置、工艺流程"
-        url="https://doc.iocoder.cn/mes/pro/process-route/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
     <Grid table-title="生产工序列表">

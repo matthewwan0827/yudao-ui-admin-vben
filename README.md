@@ -10,8 +10,7 @@
 ## 🐶 新手必读
 
 - nodejs >= v22.18.0（推荐v24） && pnpm >= 11.0.0（强制使用 pnpm）
-- 演示地址【Vue3 + element-plus】：<http://dashboard-vue3.yudao.iocoder.cn>
-- 演示地址【Vue3 + vben5(ant-design-vue)】：<http://dashboard-vben.yudao.iocoder.cn>
+- 演示地址【Vue3 + vben5(Antdv Next)】：<http://dashboard-vben.yudao.iocoder.cn>
 - 演示地址【Vue2 + element-ui】：<http://dashboard.yudao.iocoder.cn>
 - 启动文档：<https://doc.iocoder.cn/quick-start/>
 - 视频教程：<https://doc.iocoder.cn/video/>
@@ -21,7 +20,7 @@
 **芋道**，以开发者为中心，打造中国第一流的快速开发平台，全部开源，个人与企业可 100% 免费使用。
 
 - 采用最新 [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) v5.7.0 实现
-- 支持 [Ant Design Vue](https://www.antdv.com/) | [Element Plus](https://element-plus.org/zh-CN/) | [Naive UI](https://www.naiveui.com/) | [TDesign](https://tdesign.tencent.com/) 多种免费开源的中后台模版，具备如下特性：
+- 前端管理界面基于 Antdv Next 构建，具备如下特性：
 
 ![首页](.gitee/image/demo/vben.png)
 
@@ -43,10 +42,7 @@
 | --- | --- | --- |
 | [Vue](https://staging-cn.vuejs.org/) | vue框架 | 3.5.35 |
 | [Vite](https://cn.vitejs.dev//) | 开发与构建工具 | 8.0.10 |
-| [Ant Design Vue](https://www.antdv.com/) | Ant Design Vue | 4.2.6 |
-| [Element Plus](https://element-plus.org/zh-CN/) | Element Plus | 2.14.1 |
-| [Naive UI](https://www.naiveui.com/) | Naive UI | 2.44.1 |
-| [TDesign](https://tdesign.tencent.com/) | TDesign | 1.20.0 |
+| Antdv Next | Ant Design Vue Next | 1.4.5 |
 | [TypeScript](https://www.typescriptlang.org/docs/) | JavaScript 超集 | 6.0.3 |
 | [pinia](https://pinia.vuejs.org/) | Vue 存储库替代 vuex5 | 3.0.4 |
 | [vueuse](https://vueuse.org/) | 常用工具集 | 14.3.0 |

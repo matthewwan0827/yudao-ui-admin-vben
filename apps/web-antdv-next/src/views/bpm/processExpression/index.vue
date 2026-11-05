@@ -84,12 +84,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="流程表达式"
-        url="https://doc.iocoder.cn/bpm/expression/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
     <Grid table-title="流程表达式">

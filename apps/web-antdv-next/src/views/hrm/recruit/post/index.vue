@@ -153,12 +153,6 @@ onMounted(async () => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【招聘】招聘管理"
-        url="https://doc.iocoder.cn/hrm/recruit/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <StopModal @success="handleRefresh" />
 

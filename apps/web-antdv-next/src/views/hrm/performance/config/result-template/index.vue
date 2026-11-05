@@ -98,12 +98,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【绩效】绩效模板、绩效计划"
-        url="https://doc.iocoder.cn/hrm/performance/template-plan/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <Grid table-title="考核结果设置">
       <template #toolbar-tools>

@@ -310,12 +310,6 @@ function refreshWorkbench() {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="PMS 手册（功能开启）"
-        url="https://doc.iocoder.cn/pms/build/"
-      />
-    </template>
 
     <!-- 工作项列表 -->
     <Grid class="pms-workbench-table">

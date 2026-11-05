@@ -98,9 +98,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="公众号图文" url="https://doc.iocoder.cn/mp/article/" />
-    </template>
     <Grid table-title="发表记录">
       <template #form-accountId>
         <WxAccountSelect @change="handleAccountChange" />

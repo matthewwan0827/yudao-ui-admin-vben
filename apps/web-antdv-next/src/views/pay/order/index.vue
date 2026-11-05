@@ -71,20 +71,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="支付宝支付接入"
-        url="https://doc.iocoder.cn/pay/alipay-pay-demo/"
-      />
-      <DocAlert
-        title="微信公众号支付接入"
-        url="https://doc.iocoder.cn/pay/wx-pub-pay-demo/"
-      />
-      <DocAlert
-        title="微信小程序支付接入"
-        url="https://doc.iocoder.cn/pay/wx-lite-pay-demo/"
-      />
-    </template>
     <DetailModal @success="handleRefresh" />
     <Grid table-title="支付订单列表">
       <template #toolbar-tools>

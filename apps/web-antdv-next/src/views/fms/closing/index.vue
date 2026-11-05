@@ -174,12 +174,6 @@ function disabledMonth(date: Dayjs) {
 
 <template>
   <Page>
-    <template #doc>
-      <DocAlert
-        title="【结账】期末结账"
-        url="https://doc.iocoder.cn/fms/closing/"
-      />
-    </template>
     <!-- 会计期间 -->
     <Card class="mb-4">
       <div class="flex items-center gap-4">

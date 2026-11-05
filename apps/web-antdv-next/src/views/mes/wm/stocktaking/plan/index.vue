@@ -118,12 +118,6 @@ const StatusEnum = CommonStatusEnum;
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【仓库】库存盘点"
-        url="https://doc.iocoder.cn/mes/wm/stocktaking/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
 

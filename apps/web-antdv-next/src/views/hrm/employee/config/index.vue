@@ -31,12 +31,6 @@ async function submitForm() {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【员工】员工管理"
-        url="https://doc.iocoder.cn/hrm/employee/"
-      />
-    </template>
     <Tabs v-model:active-key="activeTab" :destroy-inactive-tab-pane="false">
       <template #rightExtra>
         <Button

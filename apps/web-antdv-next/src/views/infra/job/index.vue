@@ -200,11 +200,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="定时任务" url="https://doc.iocoder.cn/job/" />
-      <DocAlert title="异步任务" url="https://doc.iocoder.cn/async-task/" />
-      <DocAlert title="消息队列" url="https://doc.iocoder.cn/message-queue/" />
-    </template>
 
     <FormModal @success="handleRefresh" />
     <DetailModal />

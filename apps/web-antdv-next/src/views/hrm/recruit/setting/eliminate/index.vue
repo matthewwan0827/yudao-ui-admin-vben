@@ -89,12 +89,6 @@ onMounted(getReasonList);
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【招聘】招聘管理"
-        url="https://doc.iocoder.cn/hrm/recruit/"
-      />
-    </template>
     <Grid table-title="原因列表">
       <template #toolbar-tools>
         <TableAction

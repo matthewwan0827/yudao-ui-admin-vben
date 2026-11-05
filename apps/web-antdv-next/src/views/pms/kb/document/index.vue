@@ -589,12 +589,6 @@ watch([() => route.query.folderId, () => route.query.documentId], () => {
 <template>
   <!-- 知识库工作区 -->
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【PMS】文档与协作"
-        url="https://doc.iocoder.cn/pms/kb/document/"
-      />
-    </template>
 
     <Spinner
       :spinning="loading"

@@ -39,7 +39,7 @@ export function useDictSelectRule() {
         title: label,
         info: '',
         $required: false,
-        modelField: 'value', // Ant Design Vue 组件使用 value；web-ele 自定义组件使用默认 modelValue
+        modelField: 'value', // Ant Design Vue 组件使用 value；自定义组件使用默认 modelValue
       };
     },
     props(_: any, { t }: any) {

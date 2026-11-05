@@ -166,12 +166,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【基础】商品、SKU、分类、品牌"
-        url="https://doc.iocoder.cn/wms/md/item/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
 

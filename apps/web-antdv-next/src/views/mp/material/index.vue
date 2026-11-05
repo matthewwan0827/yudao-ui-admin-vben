@@ -140,9 +140,6 @@ async function handleDelete(id: number) {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="公众号素材" url="https://doc.iocoder.cn/mp/material/" />
-    </template>
     <Grid class="material-grid">
       <template #form-accountId>
         <WxAccountSelect @change="handleAccountChange" />

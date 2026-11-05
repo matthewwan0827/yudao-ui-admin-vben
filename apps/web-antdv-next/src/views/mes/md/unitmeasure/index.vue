@@ -92,12 +92,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【基础】物料产品、分类、计量单位"
-        url="https://doc.iocoder.cn/mes/md/product/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
     <Grid table-title="计量单位列表">

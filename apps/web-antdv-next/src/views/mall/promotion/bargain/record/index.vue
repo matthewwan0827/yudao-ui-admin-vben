@@ -55,12 +55,6 @@ const [Grid] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【营销】砍价活动"
-        url="https://doc.iocoder.cn/mall/promotion-bargain/"
-      />
-    </template>
 
     <HelpListModalApi />
 

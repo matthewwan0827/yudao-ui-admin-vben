@@ -16,12 +16,6 @@ const loading = ref(false); // 加载中
 
 <template>
   <Page>
-    <template #doc>
-      <DocAlert
-        title="ERP 手册（功能开启）"
-        url="https://doc.iocoder.cn/erp/build/"
-      />
-    </template>
 
     <Spin :spinning="loading">
       <div class="flex flex-col gap-4">

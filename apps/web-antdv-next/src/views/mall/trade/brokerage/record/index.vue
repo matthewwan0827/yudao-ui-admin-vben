@@ -44,12 +44,6 @@ const [Grid] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【交易】分销返佣"
-        url="https://doc.iocoder.cn/mall/trade-brokerage/"
-      />
-    </template>
 
     <Grid table-title="分销返佣记录" />
   </Page>

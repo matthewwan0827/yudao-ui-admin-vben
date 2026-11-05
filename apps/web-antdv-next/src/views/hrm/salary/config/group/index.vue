@@ -63,12 +63,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【薪资】计薪设置、薪资档案"
-        url="https://doc.iocoder.cn/hrm/salary/config/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <Grid>
       <template #toolbar-tools>

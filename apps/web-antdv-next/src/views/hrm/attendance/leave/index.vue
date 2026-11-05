@@ -107,12 +107,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【考勤】考勤管理"
-        url="https://doc.iocoder.cn/hrm/attendance/"
-      />
-    </template>
     <Grid table-title="请假记录">
       <template #toolbar-tools>
         <TableAction

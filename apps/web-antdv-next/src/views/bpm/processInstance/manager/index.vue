@@ -100,9 +100,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="工作流手册" url="https://doc.iocoder.cn/bpm" />
-    </template>
 
     <Grid table-title="流程实例">
       <template #tasks="{ row }">

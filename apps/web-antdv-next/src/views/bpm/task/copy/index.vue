@@ -58,12 +58,6 @@ const [Grid] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="审批转办、委派、抄送"
-        url="https://doc.iocoder.cn/bpm/task-delegation-and-cc/"
-      />
-    </template>
 
     <Grid table-title="抄送任务">
       <template #actions="{ row }">

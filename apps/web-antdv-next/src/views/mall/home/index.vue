@@ -50,12 +50,6 @@ onMounted(async () => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="商城手册（功能开启）"
-        url="https://doc.iocoder.cn/mall/build/"
-      />
-    </template>
 
     <div class="flex flex-col gap-4">
       <!-- 数据对照 -->

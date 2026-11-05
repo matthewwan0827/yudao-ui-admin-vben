@@ -31,10 +31,6 @@ onMounted(() => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="Redis 缓存" url="https://doc.iocoder.cn/redis-cache/" />
-      <DocAlert title="本地缓存" url="https://doc.iocoder.cn/local-cache/" />
-    </template>
 
     <Card title="Redis 概览">
       <Info :redis-data="redisData" />

@@ -104,12 +104,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【生产】生产报工"
-        url="https://doc.iocoder.cn/mes/pro/feedback/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <Grid table-title="生产报工列表">
       <template #toolbar-tools>

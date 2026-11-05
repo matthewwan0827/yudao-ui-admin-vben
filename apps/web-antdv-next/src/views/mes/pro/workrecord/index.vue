@@ -59,12 +59,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【生产】工作记录"
-        url="https://doc.iocoder.cn/mes/pro/work-record/"
-      />
-    </template>
 
     <WorkRecordStatusBar @change="handleRefresh" />
 

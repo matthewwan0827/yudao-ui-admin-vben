@@ -206,12 +206,6 @@ onMounted(async () => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【PMS】知识库管理"
-        url="https://doc.iocoder.cn/pms/kb/library/"
-      />
-    </template>
 
     <!-- 知识库列表 -->
     <Grid>

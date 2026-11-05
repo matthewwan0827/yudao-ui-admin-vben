@@ -218,12 +218,6 @@ onMounted(() => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【凭证】凭证管理"
-        url="https://doc.iocoder.cn/fms/voucher/"
-      />
-    </template>
     <PrintModal />
 
     <Grid>

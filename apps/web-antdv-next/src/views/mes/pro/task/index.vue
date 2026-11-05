@@ -101,12 +101,6 @@ onMounted(loadGanttPreview);
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【生产】生产排产、工序流转卡"
-        url="https://doc.iocoder.cn/mes/pro/schedule-card/"
-      />
-    </template>
 
     <ScheduleModal @success="handleRefresh" />
 

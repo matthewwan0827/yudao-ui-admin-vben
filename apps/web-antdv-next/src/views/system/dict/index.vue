@@ -15,9 +15,6 @@ function handleDictTypeSelect(dictType: string) {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="字典管理" url="https://doc.iocoder.cn/system-dict/" />
-    </template>
 
     <div class="flex h-full">
       <!-- 左侧字典类型列表 -->

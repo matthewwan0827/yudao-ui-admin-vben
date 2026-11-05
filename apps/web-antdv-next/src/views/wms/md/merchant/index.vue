@@ -94,12 +94,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【基础】往来企业（供应商、客户）"
-        url="https://doc.iocoder.cn/wms/md/merchant/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
     <Grid table-title="往来企业列表">

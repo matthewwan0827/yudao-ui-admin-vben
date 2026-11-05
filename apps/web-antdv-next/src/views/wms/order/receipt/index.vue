@@ -222,12 +222,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【单据】入库"
-        url="https://doc.iocoder.cn/wms/order/receipt/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <DetailModal />
     <ReceiptOrderPrint ref="printRef" />

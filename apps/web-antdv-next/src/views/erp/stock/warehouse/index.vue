@@ -115,12 +115,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【库存】产品库存、库存明细"
-        url="https://doc.iocoder.cn/erp/stock/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
     <Grid table-title="仓库列表">

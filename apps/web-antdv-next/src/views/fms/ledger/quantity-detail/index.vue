@@ -130,12 +130,6 @@ onMounted(() => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【账簿】账簿管理"
-        url="https://doc.iocoder.cn/fms/ledger/"
-      />
-    </template>
     <div class="flex h-full flex-col">
       <!-- 搜索工作栏 -->
       <Card class="mb-4 shrink-0">

@@ -87,12 +87,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【设置】币别、科目、辅助核算、初始余额"
-        url="https://doc.iocoder.cn/fms/config/accounting/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
 
     <Grid>

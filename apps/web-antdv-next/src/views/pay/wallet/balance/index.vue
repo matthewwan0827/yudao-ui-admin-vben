@@ -59,9 +59,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="钱包余额" url="https://doc.iocoder.cn/pay/build/" />
-    </template>
 
     <DetailModal @reload="handleRefresh" />
     <Grid>

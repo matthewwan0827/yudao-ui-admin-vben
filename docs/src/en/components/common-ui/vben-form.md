@@ -22,7 +22,7 @@ In this release, starting a Vben application or Playground development server pr
 
 :::
 
-`Vben Form` is the shared form abstraction used across different UI-library variants such as `Ant Design Vue`, `Element Plus`, `Naive UI`, and other adapters added inside this repository.
+`Vben Form` is the shared form abstraction used by the current frontend application through its adapter layer. Additional UI applications can connect to the same abstraction with their own adapters.
 
 It uses [TanStack Form](https://tanstack.com/form/latest/docs/framework/vue/overview) internally for state and validation lifecycles, with [Zod 4](https://zod.dev/v4) schemas. Application code should continue using `useVbenForm`, `FormApi`, and the adapter layer instead of depending on the raw TanStack instance.
 

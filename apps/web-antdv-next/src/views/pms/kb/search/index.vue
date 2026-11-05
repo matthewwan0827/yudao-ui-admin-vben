@@ -106,12 +106,6 @@ watch(
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【PMS】文档与协作"
-        url="https://doc.iocoder.cn/pms/kb/document/"
-      />
-    </template>
     <!-- 文档列表 -->
     <Grid table-title="文档列表">
       <template #title="{ row }">

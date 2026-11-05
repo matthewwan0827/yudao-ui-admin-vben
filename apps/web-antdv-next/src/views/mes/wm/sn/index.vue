@@ -107,12 +107,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【仓库】仓库与库区库位、条码赋码、SN码"
-        url="https://doc.iocoder.cn/mes/wm/warehouse-setup/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
     <DetailModal />

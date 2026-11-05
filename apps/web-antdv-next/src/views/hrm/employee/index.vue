@@ -559,12 +559,6 @@ watch(
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【员工】员工管理"
-        url="https://doc.iocoder.cn/hrm/employee/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <CreateFromUserModal @success="handleRefresh" />
     <ImportModal @success="handleRefresh" />

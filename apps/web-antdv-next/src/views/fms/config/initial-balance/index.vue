@@ -468,12 +468,6 @@ function handleBeforeUnload(event: BeforeUnloadEvent) {
 
 <template>
   <Page auto-content-height content-class="flex flex-col overflow-hidden">
-    <template #doc>
-      <DocAlert
-        title="【设置】币别、科目、辅助核算、初始余额"
-        url="https://doc.iocoder.cn/fms/config/accounting/"
-      />
-    </template>
     <AssistFormModal @success="addAssist" />
     <ImportFormModal @success="loadPage" />
     <TrialBalanceModal />

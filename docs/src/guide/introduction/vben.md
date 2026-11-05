@@ -22,7 +22,7 @@
 - **组件丰富**：提供了丰富的组件，可以满足大部分的业务需求。
 - **规范**：代码规范，使用 `Oxfmt`、`Oxlint`、`ESLint`、`Stylelint`、`Publint`、`CSpell` 等工具保证代码质量。
 - **工程化**：使用 `Pnpm Monorepo`、`Turborepo`、`Changeset` 等工具，提高开发效率。
-- **多UI库支持**：支持 `Ant Design Vue`、`Ant Design Vue Next`、`Element Plus`、`Naive UI`、`TDesign` 等主流 UI 库，不再限制于特定框架。
+- **前端应用**：当前仓库包含基于 Antdv Next 的前端应用；共享组件包便于按需扩展其他 UI 适配。
 
 ## 浏览器支持
 

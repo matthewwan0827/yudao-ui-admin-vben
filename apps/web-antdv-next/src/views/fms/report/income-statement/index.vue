@@ -120,12 +120,6 @@ function openFormula(item: FmsReportApi.ReportItem) {
 
 <template>
   <Page auto-content-height content-class="flex flex-col overflow-hidden">
-    <template #doc>
-      <DocAlert
-        title="【报表】财务报表"
-        url="https://doc.iocoder.cn/fms/report/"
-      />
-    </template>
     <!-- 工具栏 -->
     <div class="mb-4 shrink-0">
       <FmsReportPeriodBar @query="handleQuery">

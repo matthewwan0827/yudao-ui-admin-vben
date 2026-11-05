@@ -92,12 +92,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【基础】编码规则"
-        url="https://doc.iocoder.cn/mes/md/autocode/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
     <Grid table-title="编码规则列表">

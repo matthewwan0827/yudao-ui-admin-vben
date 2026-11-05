@@ -296,9 +296,6 @@ function menuToBackend(menu: any) {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="公众号菜单" url="https://doc.iocoder.cn/mp/menu/" />
-    </template>
 
     <!-- 搜索工作栏 -->
     <AccountForm class="-mb-15px w-240px" @values-change="onAccountChanged" />

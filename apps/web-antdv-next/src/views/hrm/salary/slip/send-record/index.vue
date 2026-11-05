@@ -79,12 +79,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【薪资】月度工资、工资条"
-        url="https://doc.iocoder.cn/hrm/salary/payroll/"
-      />
-    </template>
     <Grid table-title="工资条发放记录">
       <template #month="{ row }">
         <Button type="link" @click="openDetail(row.id)">

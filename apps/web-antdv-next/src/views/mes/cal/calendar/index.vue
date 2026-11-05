@@ -24,12 +24,6 @@ const calendarTabItems = [
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【排班】排班计划、排班日历"
-        url="https://doc.iocoder.cn/mes/cal/calendar/"
-      />
-    </template>
     <div class="bg-card rounded-md p-3">
       <Tabs
         v-model:active-key="activeTab"

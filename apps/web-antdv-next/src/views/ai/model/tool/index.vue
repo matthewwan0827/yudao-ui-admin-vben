@@ -81,12 +81,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="AI 工具调用（function calling）"
-        url="https://doc.iocoder.cn/ai/tool/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <Grid table-title="工具列表">
       <template #toolbar-tools>

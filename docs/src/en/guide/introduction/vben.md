@@ -22,7 +22,7 @@
 - **Rich Components**: Provides a wide range of components to meet most business needs.
 - **Standardization**: Code quality is ensured with tools like `Oxfmt`, `Oxlint`, `ESLint`, `Stylelint`, `Publint`, and `CSpell`.
 - **Engineering**: Development efficiency is improved with tools like `Pnpm Monorepo`, `Turborepo`, and `Changeset`.
-- **Multi-UI Library Support**: Supports mainstream UI libraries like `Ant Design Vue`, `Ant Design Vue Next`, `Element Plus`, `Naive UI`, and `TDesign`, without being restricted to a specific framework.
+- **Frontend Application**: This repository includes an Antdv Next application, with shared packages that can be extended for other UI adapters as needed.
 
 ## Browser Support
 

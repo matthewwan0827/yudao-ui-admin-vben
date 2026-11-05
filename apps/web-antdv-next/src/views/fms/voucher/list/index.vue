@@ -433,12 +433,6 @@ onMounted(() => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【凭证】凭证管理"
-        url="https://doc.iocoder.cn/fms/voucher/"
-      />
-    </template>
     <div
       v-if="selectedRows.length && fmsStore.isAccountSetWritable"
       class="border-primary/30 bg-primary/5 text-primary mb-3 flex min-h-[44px] items-center gap-2.5 rounded-md border border-solid px-3.5"

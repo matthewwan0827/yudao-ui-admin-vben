@@ -63,12 +63,6 @@ onMounted(loadGanttData);
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【生产】生产排产、工序流转卡"
-        url="https://doc.iocoder.cn/mes/pro/schedule-card/"
-      />
-    </template>
 
     <div class="mb-3 flex items-center justify-between">
       <span class="text-sm text-gray-500">

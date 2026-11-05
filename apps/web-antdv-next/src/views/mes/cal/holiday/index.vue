@@ -141,12 +141,6 @@ onMounted(getList);
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【排班】班组设置、节假日设置"
-        url="https://doc.iocoder.cn/mes/cal/team/"
-      />
-    </template>
     <HolidayFormModal @success="getList" />
     <div class="bg-card overflow-hidden rounded-md">
       <Calendar v-model:value="currentDate" class="mes-holiday-calendar">

@@ -90,9 +90,6 @@ onMounted(() => {
 <template>
   <Page auto-content-height>
     <FormCreateDetailModal />
-    <template #doc>
-      <DocAlert title="工作流手册" url="https://doc.iocoder.cn/bpm/" />
-    </template>
     <Grid table-title="流程定义列表">
       <template #startUsers="{ row }">
         <template v-if="!row.startUsers || row.startUsers.length === 0">

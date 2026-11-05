@@ -222,12 +222,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【单据】出库"
-        url="https://doc.iocoder.cn/wms/order/shipment/"
-      />
-    </template>
     <FormModal @success="handleRefresh" />
     <DetailModal />
     <ShipmentOrderPrint ref="printRef" />

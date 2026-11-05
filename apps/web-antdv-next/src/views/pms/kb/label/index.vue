@@ -134,12 +134,6 @@ onMounted(() => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【PMS】文档与协作"
-        url="https://doc.iocoder.cn/pms/kb/document/"
-      />
-    </template>
     <Row :gutter="20" class="h-full">
       <!-- 左侧标签列表 -->
       <Col :xs="24" :md="4">

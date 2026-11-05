@@ -90,12 +90,6 @@ onMounted(() => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【交易】售后退款"
-        url="https://doc.iocoder.cn/mall/trade-aftersale/"
-      />
-    </template>
 
     <Grid>
       <template #toolbar-actions>

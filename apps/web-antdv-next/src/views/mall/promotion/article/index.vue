@@ -81,12 +81,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【营销】内容管理"
-        url="https://doc.iocoder.cn/mall/promotion-content/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
     <Grid table-title="文章列表">

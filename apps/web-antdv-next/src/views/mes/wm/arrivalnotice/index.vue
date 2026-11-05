@@ -108,12 +108,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【仓库】到货通知、采购入库、采购退货"
-        url="https://doc.iocoder.cn/mes/wm/purchase-in/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
 

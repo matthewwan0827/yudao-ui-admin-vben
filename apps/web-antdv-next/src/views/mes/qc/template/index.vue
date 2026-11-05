@@ -99,12 +99,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【质量】质检方案"
-        url="https://doc.iocoder.cn/mes/qc/template/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
 

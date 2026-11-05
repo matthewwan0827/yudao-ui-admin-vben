@@ -237,12 +237,6 @@ onMounted(() => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【设置】账套管理、财务参数、财务指标"
-        url="https://doc.iocoder.cn/fms/config/account-set/"
-      />
-    </template>
     <Card :loading="loading" class="h-full">
       <template v-if="accountSet">
         <Form class="max-w-[960px]">

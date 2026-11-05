@@ -49,9 +49,6 @@ catalog:
   '@form-create/ant-design-vue': ^3.3.3
   '@form-create/antd-designer': ^3.4.0
   '@form-create/antdv-next': ^3.3.3
-  '@form-create/designer': ^3.5.0
-  '@form-create/element-ui': ^3.3.3
-  '@form-create/naive-ui': ^3.3.3
   '@iconify/json': ^2.2.504
   '@iconify/tailwind4': ^1.2.3
   '@iconify/vue': ^5.0.1
@@ -137,7 +134,6 @@ catalog:
   diagram-js: ^15.24.1
   dotenv: ^17.4.2
   echarts: ^6.1.0
-  element-plus: ^2.14.3
   es-toolkit: ^1.49.0
   eslint: ^10.9.0
   eslint-plugin-better-tailwindcss: ^4.7.0
@@ -171,7 +167,6 @@ catalog:
   markmap-toolbar: ^0.18.12
   markmap-view: ^0.18.12
   medium-zoom: ^1.1.0
-  naive-ui: ^2.44.1
   nitropack: ^2.13.4
   nprogress: ^0.2.0
   ora: ^9.4.1
@@ -207,7 +202,6 @@ catalog:
   stylelint-scss: ^7.2.0
   tailwind-merge: ^3.6.0
   tailwindcss: ^4.3.3
-  tdesign-vue-next: ^1.20.3
   theme-colors: ^0.1.0
   tinymce: ^7.9.3
   tippy.js: ^6.3.7
@@ -217,7 +211,6 @@ catalog:
   tyme4ts: ^1.5.2
   typescript: ^6.0.3
   unplugin-dts: ^1.0.3
-  unplugin-element-plus: ^0.11.2
   unplugin-vue: ^7.2.0
   video.js: ^7.21.7
   vite: ^8.2.2

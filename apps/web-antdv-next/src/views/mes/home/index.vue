@@ -37,12 +37,6 @@ onMounted(() => {
 
 <template>
   <Page>
-    <template #doc>
-      <DocAlert
-        title="MES 手册（功能开启）"
-        url="https://doc.iocoder.cn/mes/build/"
-      />
-    </template>
 
     <!-- 第一行：核心 KPI 汇总卡片 -->
     <KpiCards :summary="summary" class="mb-4" @navigate="handleNavigate" />

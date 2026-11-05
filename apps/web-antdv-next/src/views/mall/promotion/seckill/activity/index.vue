@@ -117,12 +117,6 @@ onMounted(async () => {
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert
-        title="【营销】秒杀活动"
-        url="https://doc.iocoder.cn/mall/promotion-seckill/"
-      />
-    </template>
 
     <FormModal @success="handleRefresh" />
     <Grid table-title="秒杀活动列表">
