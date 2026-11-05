@@ -77,9 +77,6 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="AI 思维导图" url="https://doc.iocoder.cn/ai/mindmap/" />
-    </template>
 
     <Drawer class="w-3/5">
       <Right
