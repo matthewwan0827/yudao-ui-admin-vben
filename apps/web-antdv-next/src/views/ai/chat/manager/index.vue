@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue';
 
-import { DocAlert, Page } from '@vben/common-ui';
+import {  Page } from '@vben/common-ui';
 
 import { TabPane, Tabs } from 'antdv-next';
 
@@ -13,10 +13,6 @@ const activeTabName = ref('conversation');
 
 <template>
   <Page auto-content-height>
-    <template #doc>
-      <DocAlert title="AI 对话聊天" url="https://doc.iocoder.cn/ai/chat/" />
-    </template>
-
     <Tabs v-model:active-key="activeTabName">
       <TabPane tab="对话列表" key="conversation">
         <ChatConversationList />
