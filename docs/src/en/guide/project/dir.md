@@ -8,9 +8,6 @@ The repository uses Monorepo management, and the project structure is as follows
 ├── apps # Project applications directory
 │   ├── backend-mock # Backend mock service application
 │   ├── web-antdv-next # Frontend application based on Ant Design Vue Next
-│   ├── web-ele # Frontend application based on Element Plus
-│   ├── web-naive # Frontend application based on Naive UI
-│   └── web-tdesign # Frontend application based on TDesign
 ├── cspell.json # CSpell configuration file
 ├── docs # Project documentation directory
 ├── eslint.config.mjs # ESLint configuration file
