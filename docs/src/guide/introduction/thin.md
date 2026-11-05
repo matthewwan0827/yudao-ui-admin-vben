@@ -8,13 +8,7 @@ outline: deep
 
 ## 应用精简
 
-首先，确认你需要的 `UI` 组件库版本，然后删除对应的应用，比如你选择使用 `Ant Design Vue`，那么你可以删除其他应用， 只需要删除下面两个文件夹即可：
-
-```bash
-apps/web-ele
-apps/web-naive
-
-```
+当前仓库保留 `web-antdv-next` 前端应用。精简其他项目时，请删除不需要的应用目录，并同步清理对应的脚本和部署配置。
 
 ::: tip
 
@@ -58,15 +52,10 @@ pnpm install
   "scripts": {
     "build:antdv-next": "pnpm run build --filter=@vben/web-antdv-next",
     "build:docs": "pnpm run build --filter=@vben/docs",
-    "build:ele": "pnpm run build --filter=@vben/web-ele",
-    "build:naive": "pnpm run build --filter=@vben/web-naive",
-    "build:tdesign": "pnpm run build --filter=@vben/web-tdesign",
     "build:play": "pnpm run build --filter=@vben/playground",
     "dev:antdv-next": "pnpm -F @vben/web-antdv-next run dev",
     "dev:docs": "pnpm -F @vben/docs run dev",
-    "dev:ele": "pnpm -F @vben/web-ele run dev",
-    "dev:play": "pnpm -F @vben/playground run dev",
-    "dev:naive": "pnpm -F @vben/web-naive run dev"
+    "dev:play": "pnpm -F @vben/playground run dev"
   }
 }
 ```
